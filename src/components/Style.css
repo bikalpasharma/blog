@@ -1,0 +1,61 @@
+.allblogs{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.todo-main{
+    padding:10px;
+    margin: 5px;
+    background-color: #eee;
+    width:33%;
+    list-style: none;
+
+}
+.todo-main h2 {
+    margin: 0;
+}
+.viewBtn{
+    padding:10px;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.deleteBtn{
+    padding:10px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.back{
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+
+}
+.modal-body{
+    background-color: #eee;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    padding: 10px;
+    top:40%;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    justify-content: center;
+    left: 20%;
+}
+.image{
+    max-width: 100%;
+}

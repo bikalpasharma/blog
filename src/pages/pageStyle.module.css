@@ -1,0 +1,44 @@
+.blogitems{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.headtop{
+    text-align: center;
+}
+
+.form{
+    width:500px;
+    background: #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+.formText{
+    border: 1px solid #ccc;
+    width: 100%;
+    height:45px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.formTextarea{
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.label{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.btn{
+    padding:10px;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.pfav{
+    text-align: center;
+}
